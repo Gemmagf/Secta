@@ -1,9 +1,0 @@
-streamlit==0.67.0
-pandas==1.0.5
-numexpr==2.7.1
-numpy==1.18.5
-plotly==4.10.0
-wordcloud==1.8.0
-matplotlib==3.2.2
-emoji==0.6.0
-plotly-express==0.4.1
