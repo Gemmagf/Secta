@@ -349,7 +349,7 @@ st.write("# ")
 
 
 # Visualitzacions temporal
-any = st.slider('Anys', 2015,2020, (2016,2020) )
+any = st.slider('Anys', 2015,2020, (2016,2019) )
 mes = st.slider('Mesos', 1,12, (1,12) )
 
 da = df
@@ -378,7 +378,7 @@ st.plotly_chart(fig5)
 
 
 # Membres
-st.markdown("<h2 style='text-align: center; color: #D0D3DA;font-family:verdana;font-size:150%;'>Que diu i quan cada membre de la sectuqu?</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #D0D3DA;font-family:verdana;font-size:150%;'>Que diu i quan cada membre de la sectuqui?</h1>", unsafe_allow_html=True)
 st.write("# ")
 stop_words = open('catala.txt','r',encoding = 'utf-8').read().split()
 comment_words = '' 
