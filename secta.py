@@ -12,7 +12,6 @@ from datetime import datetime
 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud 
-from tqdm import tqdm 
 
 import matplotlib.dates     as mdates
 from matplotlib.colors      import ColorConverter, ListedColormap
@@ -350,7 +349,7 @@ st.write("# ")
 
 
 # Visualitzacions temporal
-any = st.slider('Anys', 2015,2020, (2015,2020) )
+any = st.slider('Anys', 2015,2020, (2016,2020) )
 mes = st.slider('Mesos', 1,12, (1,12) )
 
 da = df
