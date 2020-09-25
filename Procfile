@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run bevydela.py
+web: sh setup.sh && streamlit run secta.py
